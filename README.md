@@ -1,4 +1,3 @@
-# N552VWHackintosh
 Mojave 10.14 Setup Instructions
 
 *Step 1: Install Clover Bootloader & Copy EFI Files*
@@ -12,6 +11,15 @@ Notes:
 * DSDT.aml may be different as it is unique to bios version and model of computer
 
  - Spoof SSDT is important for disabling the NVIDIA graphics as they won't allow for booting and will never work anyway
+https://www.tonymacx86.com/threads/ssdt-gpu-graphics-card-injection.183354/
+
+Press f4 in clover to get ACPI tables in EFI/Clover/ACPI/Origin
+Copy Origin folder to desktop
+Copy refs.txt to Origin 
+Copy iasl binary to /usr/bin from current directory:
+sudo cp iasl /usr/bin
+Run script to decompile ACPI Tables:
+iasl -da -dl -fe refs.txt DSDT.aml SSDT*.aml
 
 *Step 2: Copy Hackintosh related applications to Applications folder*
 
@@ -50,7 +58,7 @@ Add patches to KextToPatch in clover config.plist
 
 
 1. set screen resolution to 1920x1080
-2. Copy kexts to EFI/Clover/Kexts
+2. Copy kexts (IntelGraphicFixup & Lilu & CoreDisplayFixup) to EFI/Clover/Kexts
 3. With 0x12345678 fake id and no value for ig-platform-id  do the following terminal command and reboot
 
  sudo kextcache -i /

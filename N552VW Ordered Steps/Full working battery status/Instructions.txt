@@ -1,0 +1,4 @@
+Instructions
+Install kext
+ACPIBatteryManager.kext
+Apply included patch to DSDT

@@ -1,0 +1,15 @@
+Get audio working
+1. Run appleHDA patcher for laptop 255
+2. copy clover patches and inject audio id 3 in clover / ignoring dsdt files
+3. Make backup of appleHDA.kext in /System/Library/Extensions
+4. install full patched appleHDA codec commander and HDAEnabler with kext utility
+5. Reboot!
+
+
+Dummy Method Requires:
+Kext Utility Install 
+ - DummyKext
+ - CodecCommander
+Copy Clover patches and layout from mironeaudio
+Check acpi options in config.plist AddDTGP and FixHDA
+Patch DSDT with IRQ & HDEF

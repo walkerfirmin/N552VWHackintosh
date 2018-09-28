@@ -1,0 +1,9 @@
+Get working Graphics
+
+
+1. set screen resolution to 1920x1080
+2. Copy kexts to EFI/Clover/Kexts
+3. With 0x12345678 fake id and no value for ig-platform-id  do the following terminal command and reboot
+// sudo kextcache -i /
+7. Remove Fake id from plist by using 0x0 and add 0x19160000 to the plist
+8. Reboot and you have accelerated graphics! 1536 MB

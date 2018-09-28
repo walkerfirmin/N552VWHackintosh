@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="Dictionary">
+	<suite name="SwitchResX loader Suite" code="SWRS" description="Load SwitchResX Features into an app">
+		<command name="load srxpatch" code="SWRSSWSP" description="Load SwitchResX Patch">
+			<result type="missing value"/>
+		</command>
+	</suite>
+</dictionary>

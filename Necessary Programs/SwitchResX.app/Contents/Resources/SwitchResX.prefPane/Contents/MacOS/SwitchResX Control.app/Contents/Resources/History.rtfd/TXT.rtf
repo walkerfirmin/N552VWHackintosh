@@ -1,0 +1,1115 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf400
+{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red221\green9\blue7;\red0\green0\blue0;\red255\green0\blue0;
+}
+{\*\expandedcolortbl;;\csgenericrgb\c86667\c3529\c2745;\cssrgb\c0\c0\c0;\csgenericrgb\c100000\c0\c0;
+}
+\vieww20800\viewh12040\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs18 \cf2 SwitchResX 4.7.2\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects initial bugs and crashes with macOS 10.14 Mojave\
+\'95 Adapted the UI to match Dark Mode in Mojave\
+\'95 Is still working on OS X 10.6 to macOS 10.14 (9 macOS versions!)\
+\
+\'95 Changed some icons in the UI to slightly modern ones\
+\'95 Deprecates the SwitchResX Extension (which is no more installable on Mojave)\
+\
+\'95 Corrects a crash when editing Display Sets directly from the Applications properties\
+\'95 Corrects a bug when saving icons positions when using a Display Set\
+\'95 Corrects an issue where imported resolutions from clipboard would always have negative horizontal sync\
+\'95 Enabled copy/paste custom resolutions directly from list, or current resolutions to easily create a custom one\
+\'95 Slightly changed rounding code for displaying frequencies\
+\'95 Remembers the previous edited monitor in a Display Set\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.7.1\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects an issue where text was not visible in the password entry dialog\
+\'95 Corrects a bug in the AppleScript recording code with the "underscan" property\
+\'95 Adds an option to quit the Dock when disabling a display, separated from when enabling a display\
+\'95 Corrects some memory leaks in the Colorsync profile management code\
+\'95 Corrects a small UI issue - should now show a consistent UI when displaying the resolutions name\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.7\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Can define complex mirroring options within a Display Set (For example: monitor #1 mirrored on monitor #3, while monitor #2 is separately mirrored on monitor #4)\
+\'95 Can distinguish and remember multiple identical monitors (same vendor, model, date of manufacture) by their serial number\
+\'95 Parses more information from exported EDID\
+\'95 Changes the UI used to draw the resolution menu within the Display Set\
+\'95 Corrects a crash when trying to draw the Display Set preview\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.6.6\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects a bug where SwitchResX would continuously ask a reboot when a custom resolution would in fact be invalid\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\tx8920\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.6.5\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects a bug where SwitchResX would forget the current resolution and not check any resolution in the menu, after only changing the colour depth. This could cause further crashes in some circumstances.\
+\'95 Corrects a problem where the native resolution would be reported as "Invalid" after an OS update\
+\'95 Corrects a crash that could occur when saving icons and SwitchResX would not know what is the actual current resolution\
+\'95 Corrects little bugs in User Interface\
+\'95 Shows in the Custom resolutions list if the resolution has been created by the user (you) or is a factory provided resolution\
+\
+\pard\tx480\tx8920\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.6.4\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects a bug in the English localisation where the table showing the current resolutions list was expanded with a new column each time the Preferences were open\
+\'95 Correctly saves the icons end windows positions and sizes when switching to a Display Set, if automatic icons saving is set\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\tx8920\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.6.3\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Shows if a resolution is scaled or native in the current resolutions list\
+\'95 Also shows disabled Displays in the menus even if the option to only show the clicked menu is active - to allow to reenable a previously disabled menu\
+\'95 Fixes a bug that crashed the Control Panel when showing the Applications list \
+\'95 Correctly shows a monitor name when the name is too long and is spanned into multiple EDID fields\
+\'95 Allows to apply new settings immediately without rebooting, by forcing two successive rotations (is still an experimental feature)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\tx8920\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.6.2\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Fixes a bug that prevented opening the registration windows\
+\'95 Fixes a bug that truncated the monitor name\
+\'95 Correctly shows the updated extensions version after installation\
+\'95 Doesn't quit Dock after disabling a display any more\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\tx8920\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.6.1\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Fixed a bug that prevented the program to open on MacOS X versions from 10.6 to 10.8\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\tx21940\pardeftab480\partightenfactor0
+\cf0 \'95 Fixed a link for update\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Doesn't try to read resolutions from system files if these were incorrectly handcrafted\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\tx8920\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.6\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Correctly works on macOS 10.12 Sierra\
+\'95 Corrected a bug which would never set an option when using the German version\
+\pard\tx480\tx8920\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.5.6\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Added FastSpring as payment processor\
+\pard\tx480\tx8920\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.5.5\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Removed Kagi as payment processor\
+\pard\tx480\tx8920\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.5.4\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Solves a user interface issue with the "Register" item in the Help menu\
+\'95 Uses HTTPS for fetching the latest version on the SwitchResX site\
+\'95 Corrects an issue with monitored applications that are using an incorrect bundle ID\
+\'95 Corrects an issue with Contextual Menu item in latest PathFinder versions\
+\'95 On ElCapitan or later, indicates when it cannot install monitor settings because of SIP\
+\'95 Uses a better algorithm to retrieve monitor settings when using multiple identical monitors\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.5.3\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 On ElCapitan, indicates when it cannot install a custom resolution because of SIP\
+\'95 On ElCapitan, can now remove previous contextual menu items and install the correct version\
+\'95 On ElCapitan, corrects a problem where the menu item checkmark would disable itself automatically\
+\'95 On ElCapitan, can configure SIP so that SwitchResX can continue to save custom resolutions and SIP can be activated again \
+\'95 Solves an issue where displaying detail of a resolution could sometimes show garbage information\
+\'95 Solves a new compatibility issue with MacOS X 10.6.x SnowLeopard\
+\'95 Solves a bug where default applications couldn't change their Display Set any more\
+\'95 Solves a user interface issue when reseting unattached monitor to factory settings\
+\'95 Solves a user interface issue in the Control Panel's menus\
+\'95 Solves an other compatibility issue with some applications (like Name Mangler)\
+\'95 Corrects an issue when exporting an EDID containing DisplayID data\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.5.2\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Adds support for OS X ElCapitan (check the Read Me documentation file for more information and notice)\
+\'95 Solves a compatibility issue with MacOS X 10.6.x SnowLeopard\
+\'95 Solves a compatibility issue with some applications (like the Unarchiver)\
+\'95 Adds a setting to define the base resolution for all scaled resolutions on OS X Yosemite 10.10.2 and above\
+\'95 Adds a setting to start up without applying previous settings at all\
+\'95 Can better handle cases on setups using more than 2 identical displays \
+\'95 Is more informative when trying to save all applications windows when Security settings are not enabled\
+\'95 Corrects graphical issues when previewing Display Sets\
+\'95 Corrects graphical issues when using Dark Theme in OS X Yosemite\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.5.1\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Changes the way it manages switching to a Display Set when an application starts\
+\'95 Corrects a problem when starting an application using a Display Set triggering a GPU change\
+\'95 Corrects a problem when resetting Display Setting when an application using the discrete GPU (when used) quits\
+\'95 Corrects a problem that would apply a Display Set again and again, if the Display Set triggered an Applescript, itself bringing a new application in front\
+\'95 Corrects a problem when trying to save a new custom resolution that is just a change from a native resolution\
+\'95 Correctly set back the Colorsync profile when quitting an application that would change Colorsync profiles\
+\'95 Doesn't list resolutions "0x0" any more, which could be reported available from MacOS X\
+\'95 Brings back the option to quit the Dock when disabling a display - this could be useful even on Yosemite\
+\'95 Will show if a custom resolution is compliant to any standard formula (GTF, CVT, -RB, -RBv2)\
+\'95 Correctly generates custom interlaced resolutions complying to CVT\cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.5\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Adds support for designing custom resolutions with horizontal and vertical sizes bigger than 4095\
+\'95 Adds a lot more information in exported EDID to support DisplayID extensions from 4K and 5K monitors\
+\'95 Adds an option to generate CVT-RB v2 compliant timings\
+\'95 Adds better handling of situations where two identical displays are plugged to your Mac but only one of them shall get a custom resolution\
+\'95 Adds an option to set brightness to zero for deactivated monitors\
+\'95 Adds an option to highlight native resolutions in the menus\
+\'95 Adds an option to force monitors sleeping after deactivating a monitor (prior to this version this was always done)\
+\'95 Removed support for saving & restoring windows in multiple Spaces in Yosemite - this is no more possible and was causing a crash with version 4.4.1\
+\
+\'95 Corrected Menu appearance with Dark Theme in Yosemite\
+\'95 Corrected a bug where executing a script from a Display Set would trigger a new application in front, itself triggering a new Display Set\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.4.1\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects a drawing bug when showing the menu with a huge resolution list\
+\'95 Displays the key shortcut assigned to a display set in the menus, if any\
+\'95 Added more information in exported EDID\
+\
+\'95 Corrected preliminary issues with Yosemite, in particular in Menu appearance with Dark Theme\
+\'95 Corrected some graphical issues in the Preferences when defining a custom scaled resolution\
+\'95 Corrected a bug when quitting a monitored application with a Display Set would trigger a GPU switch, and would set back the display in a wrong resolution\
+\'95 Corrected a bug when adding alias to applications to the list of monitored applications\
+\'95 Corrected a bug when network would drop while trying to register online \
+\'95 Corrected a bug where underscan would be set to maximum when switching GPUs\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.4\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Added support for Colorsync profiles: changing profiles works from the SwitchResX menus, and is now recordable via AppleScript too\
+\'95 On Mavericks, when the menu bar is on multiple monitors, can optionally show the clicked monitor's settings only\
+\'95 On Mavericks, changed the way scaled resolutions are saved on disk: this allows to create new HiDPI resolutions on some Macs whose graphic driver supports this\
+\'95 Added a way to "bless" a new resolution once it has been used\
+\'95 On Mavericks, disabling an external display will put all displays to sleep to blank them out - this is the only way to black out a disabled display on Mavericks\
+\
+\'95 Modified the Menus appearance\
+\'95 Codesigned MenuCracker to solve a bug where the menu wouldn't appear in the menu bar on Mavericks\
+\'95 Corrected a bug in the interface, where the position of a display in a DisplaySet was not remembered\
+\'95 Corrected a bug where a configuration with multiple identical monitors would show with same number in the interface\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Removed PowerPC support: SwitchResX 4.3.6 is the last version supporting PowerPC\
+\'95 Removed Leopard support: SwitchResX 4.4 requires MacOS X 10.6 at least\
+\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.3.6\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Works around some bugs in OS X 10.9 Mavericks, like never detecting newly attached external displays or not updating resolutions list in the menu\'85\cf2 \
+\cf0 \'95 Should manage Airplay monitors correctly on 10.9 too \
+\'95 Corrects a bug where an inactive display could be removed from Display Sets\
+\'95 Corrects a bug where a Display Set containing only mirroring wouldn't be applied\
+\'95 When disabling a Display, SwitchResX now tries to set brightness to zero via DDC commands when available\
+\'95 Can now use the same key shortcut for more than one Display Set; and switch cyclically between them\
+\'95 Improved EDID Parsing\
+\'95 Removed Growl support\
+\'95 Changed AppleScript command "use" to "apply"\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.3.5\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Adds some changes to bring first compatibility with OS X 10.9 Mavericks\cf2 \
+\cf0 \'95 Should restore Contextual Menu on the Desktop in PathFinder too\
+\'95 Give the option to kill the Dock to restore Desktop Picture after reenabling a display on 10.7 and 10.8\
+\'95 Give the option to force keeping the mouse on active displays\
+\'95 Corrects a crashing bug when removing a display whose settings were just edited within the Control Panel\
+\'95 Corrects a bug with disabling mirroring from just one display, when this display also mirrors a third display (!)\
+\'95 Corrects a bug when applying a Display Set that was already active could overwrite the previous icons and windows positions saved with the Display Set\
+\'95 Correctly restore the Dock status (hidden/shown) when quitting an application that is monitored by SwitchResX\
+\'95 Is normally capable to find a display in its preferences even if the video port has changed, without cluttering the Preferences file with copies of this display\
+\'95 Shows running version of the Daemon in the Control Panel, to be sure the latest version of all modules are running\cf2 \
+\cf0 \'95 Doesn\'92t let change any setting of an Airplay external display\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.3.4\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Allows to set individual display mirroring if you have more than 2 displays (ie: mirroring only display 2 and 3, leaving 1 untouched, for example)\
+\'95 Will automatically kill old versions if a newer daemon is running - this prevents having two concurrent daemons running\cf2 \
+\cf0 \'95 Solves a problem when using the "underscan" value from within a Display Set \cf2 \
+\cf0 \'95 Solves a little issue where frequencies were calculated wrong when defining an interlaced resolution\cf2 \
+\cf0 \'95 Solves a problem on 10.8.2 and later where saving icons and windows sometimes doesn't work\cf2 \
+\cf0 \'95 Solves a problem that would open Protools instead of installing SwitchResX Preferences Pane\
+\'95 Solves a problem when installing the Contextual Menu \cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.3.3\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects a crash on MacOS X 10.6.x\
+\'95 Uses Growl 2.0 on MacOS X 10.7+, while retaining Growl 1.x on previous versions\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.3.2\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Allows to set displays in gray levels from Display Sets\
+\'95 Allows to select resolution from preferences even if the Daemon is not running\
+\'95 Allows to modify menu settings for all resolutions in the preferences by pressing the alt key\
+\'95 Uses Mountain Lion Notification Center for notifying new version availability\
+\'95 Corrects a bug on Mountain Lion that could cause some other applications to behave strangely (VMWare Fusion, Preview, TextEdit\'85)\cf2 \
+\cf0 \'95 Corrects a bug with the TimeMachine interface on Mountain Lion\
+\'95 Corrects a bug in the Preferences application where quitting wouldn't ask to save settings\
+\'95 Corrects a bug that would cause SwitchResX to remember several dozens of resolutions on inactive displays, which could cause a growing preferences file, memory leaks and some delay by Fast User switching\
+\'95 Some internal changes for compatibility with Mountain Lion and future changes of this OS\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.3.1\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects a crash that could occur in Preferences when set to observe some applications\
+\'95 Corrects a bug that could delete some system file when uninstalling (in particular true on the new MacBookPro with Retina display)\cf2 \
+\cf0 \'95 Sometimes the cursor was hidden when disabling a display - this should be corrected\
+\'95 Sometimes changing the resolution from within any menu couldn't be done in some circumstances - this also should be corrected\
+\'95 Should be able to replace windows on all Spaces / Mission Control desktops again\
+\'95 Doesn't observe daemons any more, as these have no UI and cannot influence display settings\
+\'95 Can now record underscan changes in AppleScript editor\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.3\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Is now signed with Developer ID for compatibility with Mountain Lion\
+\'95 Corrects some incompatibilities with Mountain Lion\
+\'95 Now manages Display Underscan on Macs the support this function\
+\'95 Some slight UI changes\
+\
+\'95 Correctly manages AppleScript recording again, which was broken for displays with HiDPi resolutions (!)\
+\'95 Correctly manages high bit depth modes in Apple Remote Desktop\
+\'95 Corrects a problem when changing resolution with incompatible bit depths\
+\'95 Corrects a problem when applying a resolution and enabling display at the same time from within a Display Set\cf2 \
+\cf0 \'95 Corrects a problem when applying a resolution on a second display from within a Display Set\cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.2.7\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Allows to switch into billion of colours modes on Lion 10.7.2 (if available)\
+\'95 Supports HiDPI modes again on Lion 10.7.1 and above (Apple did some changes in 10.7.1 that prevented SwitchResX to show these modes on 10.7.1 and above)\
+\
+\'95 Solves a problem that prevented the program to change resolution on some 2011 Macs (example MacBookAir 2011)\
+\'95 Solves a bug that continuously prevented SwitchResX to save new resolutions after OS Upgrade (the program would report "Not installed" in the custom resolutions list)\
+\'95 Solves a bug that could prevent installation of the contextual menu and the extension on a fresh Lion install\
+\'95 Solves a bug that could crash the preferences application if this one was open and the daemon would quit\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.2.6\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Allows to define a Display Set that would be applied whenever any application starts\
+\'95 Now reorders the displays so that the internal one(s) are always numbered first, even if the external is main\
+\'95 Now uses the Kagi Sales Assistant on all platforms (previously only on Intel 64bits, while the other platforms remained with KRM)\
+\
+\'95 Solves a problem where after enabling an internal display again, the brightness keys couldn't be used\
+\'95 Solves a bug where all resolution settings were lost if a display was rotated\
+\'95 Solves a problem on Lion - saved settings would not be applied immediately to all modules\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf3 \'95 Solves a bug where you could create a Display Set with no \CocoaLigature0 display remaining active\CocoaLigature1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Solves a bug where the admin password would be asked twice if you cancelled saving settings\
+\'95 Solves a bug where the monitor picture wouldn't be updated in the Preferences if a new display would be attached or detached while the preferences panel was open\
+\'95 Solves a crash when exporting the EDID twice in a session\
+\'95 If more than one exact same display is used on a configuration, the displays name can't be edited except for the first one\
+\
+\'95 (!) Experimental: added a way to apply created custom timings immediately without requiring a reboot (only on Macs with two GPUs, this causes a forced GPU switch)\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.2.5\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Solves a problem on Lion - Wallpaper was not reset when a previously disabled display was activated again\
+\'95 Supports HiDPI modes on Lion\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.2.4\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Adds compatibility with MacOS X 10.7 Lion, including saving and restoring icons and windows on all Mission Control screens\
+\
+\'95 SwitchResX now "get" and "set" the Display colour profile for any display from AppleScript, in a similar way than Colorsync Scripting on MacOS X 10.5\
+\'95 Solves a rare crash when trying to run the program with Rosetta\
+\'95 Solves some interface bugs that were only visible on Lion\
+\'95 Solves a crash occurring when removing an application from the Applications list in the Preferences\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.2.3\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects a problem in version 4.2.2 that accidentally broke compatibility with MacOS X 10.5.x\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.2.2\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 SwitchResX can now also manage colour Profiles from Display Sets: finally you can now change your colour profile with a simple click, or a simple key shortcut. You can also link a colour Profile automatically to any application, and automatically switch them when you change the frontmost application\
+\'95 Now uses Kagi Store Assistant for in-software integrated purchase\
+\'95 EDID export now gives more information about 3D capabilities of the monitor\
+\
+\'95 Worked on scriptability to support new colour Profile feature in the Display Sets\
+\'95 Worked on scriptability so that simple statements like "count displays" should now work\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Solved a crash that could occur when displaying the content of a Display Set\cf2 \
+\cf0 \'95 Solved a crash that could occur when using two or more identical monitors\cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+\
+SwitchResX 4.2.1\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Better handling of unattached monitors in Display Sets\
+\'95 Better handling of virtual monitors (when the Mac boots headless or uses ARD curtain mode) in Display Sets\
+\'95 Allows the user to select if he wants to set brightness to zero when monitor is deactivated\
+\'95 Should solve a crash when opening the Display Set panel\
+\'95 Solves a crash that can occur when saving icons and windows\
+\'95 Can again save icons and windows on Leopard\
+\
+\'95 Should be able to handle trillions of colours correctly\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.2\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Added a way to manage display rotation in Display Sets, including via Applescript\
+\'95 When disabling a display, now also put brightness to minimum: that will mimic turning an internal display completely off\
+\'95 No displays resolution frequency in the resolution name when the system only reports reduced timing names like '1080p'\
+\'95 The Finder on MacOS X 10.6.4 doesn't save positions of volumes on the Desktop. SwitchResX now works around this\
+\
+\'95 Solved a problem which prevented the APE module to load on Leopard\
+\'95 Should now remember resolutions in Display Sets, even if the resolution is no more available in the current settings\
+\'95 Solved a crash that sometimes occurred when defining a Display Set\cf2 \
+\cf0 \'95 Solves a problem when using international numerical separators in numeric fields\
+\'95 Solves a problem where the last edited value was not taken into account in the custom timing dialog\
+\
+\'95 Cosmetic issues in the Preferences when the Daemon is not running\cf2 \
+\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.1.8\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Removed errors when trying to load Contextual Menu Plugin in Garbage Collected applications\
+\'95 Solves problems with problematic applications which don't correctly define their signature in Info.plist, like Last.fm for example\
+\'95 Solves the problem when editing a Display Set removes an attached AppleScript\
+\'95 Adds a visual representation of displays layout in Display Sets\
+\'95 Adds setting and getting display position from AppleScript, including record-ability of this property\
+\'95 Solves memory problems which could be displayed in the Console\
+\
+\'95 Adds Czech localisation\
+ \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 SwitchResX 4.1.7\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Is now able to save and restore windows positions & space number, in every application, even if the window title changes\
+\'95 Should consistently display "480p" and "576p" resolutions like the System\
+\'95 Solves a problem that prevented saving the preferences after duplicating a Display Set\
+\'95 Can't change overscan option of a disabled display any more (this would enable it)\
+\'95 Includes CEA/EIA-861D timings in the EDID export\
+\'95 Doesn't display any option any more in a disabled display, apart for re-enabling it\
+\'95 Doesn't crash any more when plugging / unplugging a display, or when fast user-switching\
+\'95 Doesn't crash any more when trying to install the Contextual Menu plugin on Snow Leopard\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.1.6\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Should now work ok when two or more identical displays are connected, as well as when the Mac can switch its GPUs. The difficulty it to know which display is connected to which GPU in all situations.\
+\'95 Correctly update the current dynamical display resolution on a virtual machine running in VMWare 3\
+\'95 No more displays multiple identical resolutions in Apple Remote Desktop's curtain mode\
+\
+\'95 Correctly updates the Menubar extra and relaunch SystemUIServer when updating to a new version \
+\'95 Corrects some strings in the German translation \
+\'95 Removed the warning message introduced on SnowLeopard for 256 colours, since MacOS X 10.6.4 now behaves correctly\cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.1.5\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects a leak in a part of the code used in several components, which was particularly visible in SystemUIServer\
+\'95 Menus are correctly updated when changing monitor depth\
+\'95 Displays a warning message when setting 256 colours mode in Snow Leopard: sometimes the mouse cursor disappears in 256 colours mode, so SwitchResX lets you go back to previous mode\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.1.4\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects a bug where you couldn't edit or create a Display Set if you had only one display connected\
+\'95 Should be more friendly when GPU switch occurs on MacBookPro with Core i5/i7 CPU\
+\'95 Doesn't display duplicate timings in the menu any more\
+\'95 Control Panel correctly reacts to configuration changes when the Daemon is not running\
+\'95 64-bit Contextual Menu Plugin no longer references unneeded libraries\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.1.3\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Doesn't display identical modes twice in the menus any more\
+\'95 Internally manages display conditions when starting a monitored app like a specific Display Set; as such will restore not only resolution & colour when quitting a monitored app, but all other conditions too\
+\'95 Doesn't prevent a disabled resolution to be applied any more, when the Daemon is stopped\
+\'95 Doesn't apply the last used resolutions or the startup Display Set when a display has been added or removed\
+\'95 Doesn't crash any more when it couldn't find the version of the extensions modules\
+\'95 Lets you delete a Display Set that was previously used by a monitored application, if you deleted this application\
+\'95 Correctly manages going from a Display Set with disabled displays to enabled & mirrored ones; or reverse\
+\'95 Correctly manages UI when defining Display Sets with mirroring or disabled displays\
+\'95 Allows to select the last resolutions again when starting up\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.1.2\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Doesn't let a mirrored display being disabled, or a disabled display being mirrored; including in Display Sets\
+\'95 Should now be able to save and restore windows from and onto all Spaces\
+\'95 When the daemon starts, now checks if a previous version is still running, and if yes, the latest version should be quit\
+  (previously, the version that would remain running could be the older one)\
+\'95 Is now able to disable/reenable a display thru AppleScript\
+\'95 Solves a problem when trying to create and enable a interleaved resolution.\
+  The resolution could be enabled in MacOS X, though SwitchResX would continue to claim it is not valid.\
+\'95 Solves a bug that deleted any Display Set attached to an application, when the Display Set would be edited\
+\'95 Solves a bug that mixed displays in Display Sets when a display was removed during edition\
+\'95 Solves a bug where saved Windows wouldn't really be saved on disk, sometimes\
+\'95 Solves a bug when saving settings in the Control Panel would apply a false Display Set\
+\'95 Solves some bugs in the 10.5 Contextual Menu when setting the Main Display and when reloading changed preferences\
+\
+\'95 On Leopard, now installs APE2.6; while on SnowLeopard continues to run without it.\
+  However, if on SnowLeopard, APE2.6 is detected because is was already installed by the user, then SwitchResX can use it.\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.1.1\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects a crashing bug in the 4.1 release\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.1\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf0 Major new feature\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 The Contextual Menu in the Finder and the Extension module are back on SnowLeopard.\
+  These modules were previously not included in version 4.0 because of inherent changes in the System structure, on MacOS X 10.6\
+  The Extension module no more uses APE on MacOS X 10.6; but will correctly use the latest version of APE on MacOS X 10.5\
+  Moreover, on MacOS X 10.6, the Finder's Contextual Menu can appear directly in the main menu, not in the "More\'85" submenu.\
+\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf0 Bugs corrected\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 When updating to a new version all SwitchResX components should now be automatically updated, even if it is running.\
+  This should prevent a wrong alert stating that an update is available when you think you are already running the latest version \
+\'95 Corrects a problem when monitoring some applications which didn't provide any Bundle Name (e.g.. Stellarium). Thanks to my 8-year son Maxime for finding this one !\
+\'95 Corrects a bug when a monitor which was detached when sleeping was falsely saved as "disabled"\
+\'95 Correctly report resolutions on dynamic "emulated" monitors (for example when using MacOS X Server in VMWare windowed mode)\
+\'95 Corrects a problem where the monitor timing range was always reported as unsaved (when running headless, or on VMWare, or on ARD in curtain mode)\
+\'95 Correctly prevents a resolution change when running on multiple monitors and without using the SwitchResX Extension\
+\'95 Corrects a problem where the serial number could be overwritten and the software would unregister itself. Sorry if you observed this problem.\
+\'95 Correctly remembers the monitors in a Display Set, even when the monitor order in the System has changed\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.0.3\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Provides a new option to only let SwitchResX reactivate a display that was previously deactivated. This is useful when a TV is always plugged to the Mac, and if the TV comes out of sleep, and you don't want the TV to be visible to MacOS X.\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf0 \'95 Uses GROWL, if available, to display new updates notifications. Even without GROWL, the look of the alerts has been changed.\
+\'95 Should behave correctly if a bad EDID is reported by the system\
+\'95 Should correctly report the resolution status, even if the resolution was added some minutes after reboot\
+\'95 Should correctly reposition icons snapped to grid, when this option is selected\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4.0.2\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Indicates when a resolution wasn't activated after a restart\
+\'95 Correctly manages resolution which should display a confirmation dialog\
+\'95 Solves a cosmetic issue when resetting factory settings\
+\'95 Should not delete registration issues any more\cf2 \
+\cf0 \'95 Should not write useless EDID information any more in monitor profile files\
+\'95 Should get rid of some CGS errors in the Console when changing overscan or disabling a display\
+\'95 Can enhance again some displays whose type is unknown to MacOS X (when Vendor code is 'unkind')\
+\'95 Now saves preferences when forced to quit from Activity Monitor\
+\'95 Corrects a rare crash during initialisation when using more than one display\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.0.1\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Is more robust when upgrading preferences files from SwitchResX 3 - no more blank preferences window. This was due because of a bug in SwitchResX 3, which version 4 has to work around to be able to reuse its preferences\
+\'95 Saves custom timings as digital resolutions, not analog\
+\'95 Enables and disables the Menubar extra directly, no more when saving preferences\
+\'95 Correctly shows available resolutions when using Apple Remote Desktop in curtain mode\
+\'95 Correctly loads a display whose characteristics may have changed since last time it was saved\cf2 \
+\cf0 \'95 Correctly allows to switch Main Display via Display Sets\
+\'95 Correctly shows Display's default ranges\
+\'95 Correctly shows Display informations even if some Version informations are not get\
+\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4.0.0 (was 4\'df7)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Should let at least one monitor enabled when starting the daemon, even if this monitor was disabled last time SwitchResX was run\
+\'95 Should be able to apply a Display Set when starting the daemon\
+\'95 Correctly displays the frequency when loading a previously saved standard timing\
+\'95 Only shows the standard timings that SwitchResX itself created, not the system original ones\
+\'95 Corrects a little problem when displaying 'unkn' Vendor ID\
+\pard\tx480\pardeftab480\pardirnatural\partightenfactor0
+\cf2 	\
+SwitchResX 4\'df6\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Shouldn't ask to update helper modules any more, except when SwitchResX itself is updated\
+\'95 Added Core Suite elements to Daemon's AppleScript dictionary\
+\'95 Solves several problems in AppleScript terminology\
+\'95 Allows to create custom timings for monitors that don't provide any EDID\
+\'95 Auto-creates Display Sets when saving icons in Display Set mode\
+\'95 Solves several problems and crashes when replacing icons\
+\'95 Can enable an inactive display and disable an active one in the same Display Set\
+\'95 Doesn't let editing custom resolutions for a display that is present twice or more in a setup with same Vendor and Product IDs\
+\'95 Uses MenuCracker2 (thanks to Alex Harper)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4\'df5\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects a problem with quick modify buttons\
+\'95 Uses APE Version 2.5.2 (for Leopard at least)\
+\'95 Hides the button for solving 10.5.7 bug on 10.5.8+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 4\'df4\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects a problem when editing interlaced resolutions\
+\'95 Corrects a problem with positive sync flag\
+\'95 Corrects a problem when system resolution to edit is not consistent (interlaced resolution with odd porches)\
+\'95 Corrects some format problems when importing and exporting timing in Modeline format\
+\'95 Does show the correct blanking values for standard resolutions\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4\'df3\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Contextual Menu Item works again (apart on Snow Leopard where CM Items are now deprecated)\
+\'95 Enabling displays that have been disabled should work again\
+\'95 Display Set edition dialog has correct name\cf2 \
+\cf0 \'95 Uses APE Version 2.5.1 (for Leopard at least)\
+\'95 Lets SwitchResX Daemon be started in more than one session on a same machine\
+\'95 Can now select again all resolutions if for a display some new resolutions are enabled after restart\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4\'df2\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Polished interface\
+\'95 Corrected some bugs in Snow Leopard\
+\'95 Added a function to disable the problem appearing in MacOS X 10.5.7 with HDMI 1.3 compatible monitors\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 4\'df1\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 New user interface in Cocoa\
+\'95 No installer any more: SwitchResX 4 auto-installs its modules where they need to be\
+\'95 All texts (Display Sets names, Monitor names, etc.) are Unicode savvy and no more limited to 255 characters\
+\'95 Functions to create new resolutions should be easier to apprehend\
+\'95 SwitchResX4 asks for an admin password only when it needs it \
+\
+\'95 Still AppleScript-able and AppleScript Recordable\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+About SwitchResX 4.0.0\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Cocoa\
+SwitchResX 4 is a complete rewrite in Cocoa. The Control Panel and the Daemon have been completely rewritten from scratch, the Contextual Menu, the Menubar extra and the APE module have been adapted to the new environment used by the new main modules.\
+\
+\'95 64-bit\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf0 SwitchResX 4 main modules (Control Panel and Daemon) are also compiled in 64-bit mode for Snow Leopard. The Menubar extra is 64-bit compatible, but the Contextual Menu plugin isn't, as Snow Leopard doesn't support these modules any more. APE module is not compatible with Snow Leopard as of today.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Free upgrade\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf0 SwitchResX 4 is a free upgrade for registered users of SwitchResX 3, and a 9\'80 upgrade for users of SwitchRes2. Existing registration codes will continue to work.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+================================================================================================\
+\
+SwitchResX 3.8.7\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Should solve the bug asking again for registration if already registered since a long time\cf2 \
+\cf0 \'95 Corrects two bugs in the scripting mechanism of SwitchResX Daemon\
+\'95 Shows the horizontal/vertical positive sync correctly on existing resolutions\
+\'95 Shows the right recalculated CVT vertical resolution when using this timing mode generation formula\
+\'95 Shows the correct starting Display Set in SwitchResX Control\
+\'95 Apply correctly the origin of a display when set from a Display Set\
+\'95 Doesn't let APE patch any SwitchResX tool to avoid infinite loops\
+\
+\'95 Prepares the transition to SwitchResX 4\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 3.8.6\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Solves a bug when checking new version online, and corrects a crash with LittleSnitch\
+\'95 Corrects a crash when reading EDID in some cases\
+\'95 Permits to select Applications again on Leopard when designing a Display Set\
+\'95 Enables the monitor before doing any other change when a Display Set contains both a monitor activity and some position settings\cf2 \
+\cf0 \'95 Correctly updates the Current Depth and Mode shown when using Apple Remote Desktop in curtain mode\
+\'95 Correctly allows to change a resolution from SwitchResX on a second monitor, if all other applications are forbidden changing resolutions\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Sorting of resolutions in the menus is consistent with Apple sorting method\cf2 \
+\cf0 \'95 Shows more "standard" resolutions that may be simply enabled\
+\'95 Searches the preferences in the /Library folder if more than one user are sharing their preferences on a single Mac\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 3.8.5\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Uses APE 2.5 final\
+\'95 Can save windows again correctly\
+\'95 Apply correct display set's icon & windows settings after a display set is changed\
+\'95 Optionally saves Desktop for the previous Display Set when switching Display Sets\
+\'95 Save desktop and Restore desktop commands are recordable in AppleScripts now\
+\
+\'95 Keeps and restores the Enabled or Disabled state of a display when running and quitting a monitored application\
+\'95 Added a second security to ensure not to allow disabling all displays\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 3.8.4\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Can successfully distinguish a display which is enabled but mirrored from a disabled display\
+\'95 Can successfully mirror more than one display on configurations with 3 displays or more\
+\'95 Doesn't re-enable a display after 10 seconds if it was just disabled\
+\'95 UI fix: mirroring option in a Display Set is correctly shown\
+\'95 UI fix: updates the UI if the startup time is modified\
+\'95 Several memory leaks are fixed thanks to the CLang tool\
+\'95 Should solve a bug where registration infos could get lost after some time causing a preferences file corruption\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 3.8.3\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects a crash when saving icons by Display Sets and when no set was preexisting\
+\'95 Preserves existing windows data when saving windows by display set and more than one set is active\
+\'95 Preserve display status (active or inactive) across restarts\
+\'95 Can show information regarding Extended EDID on displays supporting it (CEA and VTB extensions)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 3.8.2\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 Two new main features:\
+\
+\'95 Saves desktop icons positions & windows sizes and positions with display layouts: you can have different desktop layouts (with and without an second monitor for example), and switch automatically between the layouts when you plug or unplug your monitor\
+\
+\'95 Allows to disable a plugged display without unplugging it. Uses can be: having a TV always plugged to the Mac, but not willing to use it, without having to disconnect it physically; or use a laptop on external display  with the internal screen dimmed...\
+\
+Some lesser features:\
+\'95 Brings a shortcut to System Monitors Preferences\cf2 \
+\cf0 \'95 Corrects a missing feature where the previous resolution was not applied back after a restart\
+\'95 Shows the Blanking & Total values when creating a new timing\
+\'95 Displays the localised floating point values in the exported EDID data\
+\
+Some bugs corrected:\
+\'95 Corrects a bug when trying to restore position of Finder windows\
+\'95 Corrects a bug when a Display Set was not automatically applied during application startup\cf2 \
+\cf0 \'95 Corrects a bug where the Preferences window could sometimes not be closed on Leopard\
+\'95 Corrects a bug where a "0x0" resolution could appear in SwitchResX lists of resolutions\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 3.8.1\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Brings back the Menubar extra in the menu bar, on certain configurations of Leopard where it wouldn't be displayed\cf2 \
+\cf0 \'95 APE Runs back on Leopard, thanks to the hard work of Unsanity. Reminder: APE is not required for SwitchResX to work, but can enhance some of its key features.\cf2 \
+\cf0 \'95 Doesn't crash any more while trying to get info about the latest version\cf2 \
+\cf0 \'95 Dropped Panther Support, requires Tiger 10.4.0 at least (for the APE module - the other parts should still work)\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 3.8\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Doesn't crash any more when launching/quitting the Daemon from within the Control Panel\cf2 \
+\cf0 \'95 Corrects even more instabilities that have been seen on Leopard and could lead to Control Panel crashes\
+\'95 Corrects some memory leaks in the Control Panel\
+\'95 Shows right detailed timing parameters again for existing scaled resolutions\
+\'95 Removed some system private calls that are now public APIs\
+\'95 Removed one limitation for the unregistered version\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 3.7.11\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects some instabilities that have been seen on Leopard and could lead to Control Panel crashes\
+\'95 Vertical and horizontal positive synchronisations were mixed on previous releases\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 3.7.10\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Contextual Menu works in PathFinder now, and displays a correct menu without garbage\
+\'95 Corrects a crash when trying to replace windows positions if no window position was saved\
+\'95 Corrects a crash when Control Panel was used from an other user account than the account used during installation\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 SwitchResX 3.7.9\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Common timings were not kept activated when SwitchResX was quit\
+\'95 Better options to reset to factory when something is messed up after activating a bad resolution: you can reset all displays, even if you cannot boot from a messed one\
+\'95 Corrects some bugs where reset to factory could remove the name of the display given by MacOS X itself\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 3.7.8\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects a bug with interleaved resolutions, which were not correctly saved after 3.7.7 update\
+\'95 Corrects a bug with Display Rotation menu, which was not updated on Powerbook G4\
+\'95 Corrected some bugs while defining the key shortcuts used by SwitchResX (visual and functional)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 3.7.7\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Restore icons works correctly if align on grid option is not selected\
+\'95 Correctly updates the Menu in Apple Remote Desktop in curtain mode\
+\'95 Changed exported EDID formatting output to match Custom Timing format\
+\'95 Corrected some old URLs in the software\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 3.7.6\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Quick change arrow buttons in the Custom Timing dialog box are now working in the correct direction\
+\
+\'95 Can again launch Applescripts from within Display Sets\
+\'95 Can manage Display Overscan from Menus and Display Sets\
+\'95 More coherency tests in the Display Sets\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 3.7.5\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects a rare crash with multiple monitors, seen mostly on MacBooks\
+\'95 Corrects a problem where the Control Panel would report that current settings are not already applied right after opening it\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+SwitchResX 3.7.4\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Corrects a problem where some resolutions settings were not reloaded correctly\
+\'95 Corrects a problem where the SwitchResX Menu could sometimes not be loaded at restart\
+\
+\'95 APE Module is Universal Binary - this marks the return of the resolution blocking and redirection features on Intel based Macs (still optional if you don't like Application Enhancer)\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 3.7.3\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Automatically checks for new versions online\
+\'95 On video cards that allow it, can flip the display horizontally/vertically/diagonally\
+\'95 Can launch and quit the SwitchResX Daemon from within the Control Panel\
+\'95 Can set and reset display overscan for TVs (via AppleScript only at this time)\
+\
+\'95 Better AppleScript recording possibilities: records screen mirroring/unmirroring, screen orientation changes, grayscale changes\
+\'95 Better Application sets handling, even for applications that don't provide a bundle name\
+\
+\'95 Corrects a bug where two arrow buttons when configuring a custom timing were mixed\
+\'95 Corrects a bug where two monitors could falsely get the same name when the second was plugged\
+\'95 Corrects a bug when replacing icons\
+\'95 Corrects a Display Sets bug, where the menu was not in sync with the created sets\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 3.7.2\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 Improves compatibility with Intel hardware\
+\'95 Corrects inconsistencies between PowerPC and Intel version of preferences file, visible when running under Rosetta\
+\'95 Corrects some bugs that were present in the PowerPC version also but crashing only on the Intel version\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 3.7.1\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 \'95 SwitchResX can now save and restore position and size of the windows in all applications, and not only in Finder\
+\'95 Icons could bounce to a wrong position in some cases\
+\'95 In some cases the Vertical back and sync parameters of custom resolutions were not used\
+\'95 Corrects some bugs on the Intel version\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 3.7\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf0 Lots of new features in this version. Most features were taken from user reviews (requests or rants).\
+\'95 On Tiger: SwitchResX saves (and restores) Finder Icons positions and Desktop Windows positions and sizes.\
+  This is the comeback of a long wanted feature, that was there on Mac OS 9 and often asked back\
+\'95 The Control Panel can be launched just to tweak monitor settings without installing SwitchResX completely if you don't need all the features, in which case the interface is simplified\
+\'95 Can now change the default resolution used after restart: that should avoid situations where a new resolution could be added, enabled by the System, and used, but the monitor would stay black, (and the user thought it destroyed its monitor)\
+\'95 Can now edit advanced settings (new resolutions, monitor characteristics, ...) of unattached monitors, if you know their vendor ID\
+\'95 Lets you copy and paste the parameters of custom resolutions as Windows "Powerstrip" or X11 "Modeline" settings that you can find on the web - no need to make the conversion to enter the parameters in SwitchResX, it does that automatically for you\
+\'95 Includes the Kagi Registration Module for direct registration from within SwitchResX itself\
+\'95 More resolutions are shown as VESA timings that can be enabled\
+\'95 Universal Binary available, although the x86 version is not fully tested\
+\
+\'95 Changed the positions of files: now less items are installed on your disk\
+\'95 Interface has been slightly changed, to take user remarks into account: it should be less difficult - the About Box is also simplified\
+\'95 Simplified and removed unused functions\
+\'95 SwitchResX enters the registration data automatically if it finds some in the Clipboard\
+\
+\'95 DDC report could sometimes show bad and false text values\
+\'95 SwitchResX would crash if a bad formatted serial number was entered\
+\'95 Arrow key was unusable in resolutions list\
+\'95 A crash could occur or bad values could be read when reading custom scaled resolutions\
+\'95 Can again add/remove daemon from the login items\
+\'95 Can again add/remove menu item from the menu bar\
+\'95 Sometimes a custom monitor name was not saved\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 3.6.3\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf0 \'95 Contextual Menu was not working any more\
+\'95 "Detect Displays" Menu item was not working any more\
+\'95 Doesn't automatically run the Daemon any more if it is put in the Trash after reinstall (should get rid of the annoying Registration question that could continue to pop up even after uninstall)\
+\'95 Correctly manages display rotation angle on interleaved devices\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 3.6.2\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf0 \'95 Corrects a crash that prevented SwitchResX to run on some configurations, problem introduced with version 3.6.1\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 3.6.1\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf0 \'95 Corrects a crash when Display Name was stored as localised name in preferences file\
+\'95 Corrects a problem with MacOS X 10.4.3\
+\'95 Should be less sensible to preferences loss during system upgrades\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 \
+SwitchResX 3.6\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf0 \'95 Moved code base to Xcode 2.1 for Intel transition: Intel version compiles\
+\'95 Moved all the User Interface from old Resources to Interface Builder\
+\'95 Unified both localised versions in one installer and one product - repackaged the installer\
+\
+\'95\cf2  \cf0 Can read and write preferences file even if Daemon is not running - can be useful to create resolutions even without running Daemon\
+\'95 Properly shows the correct key shortcuts in all supported languages - dynamically\
+\'95 Toolbar is customisable - desktop functions that are still useless on MacOS X are no more included by default\
+\'95 Added modifications buttons in timing definitions for quick changes (moving picture, changing size of picture) without touching frequencies\
+\'95 Added button to export Display information in a text file\
+\'95 Can customise display range properties\
+\'95 Made custom display name changes system-wide\
+\
+\'95 Corrects a bug where an incorrect resolution could be applied fro m a Display Set if the resolution was disabled after restart\
+\'95 Corrects a bug that could crash the Daemon when fast-switching between users\
+\'95 Corrects a bug where the Daemon could be added multiple times to the startup items\
+\'95 Corrects a bug where orientation information of a display was not updated after a display rotation\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf2 SwitchResX 3.5.1\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf0 \'95 Can define custom resolutions very easily by use of three timing formulas (GTF, CVT, CVT-RB)\
+\'95 Can manage rotation of displays on Tiger\
+\
+\'95 Better handles resolutions that are temporary unavailable in a display set (for example in case of rotation of a display)\
+\'95 Horizontal parameters multiplicity is got from the IORegistry, and thus should be compatible with all cards \
+\
+\'95 Modified the code for detection of configuration changes outside SwitchResX\'85\
+\'95 Corrects a bug that crashed the French version of the Menubar extra module\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf4 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 SwitchResX 3.5\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\pardirnatural\partightenfactor0
+\cf0 \'95 Proofed on Tiger\
+\'95 Redesigned user interface\
+\'95 Corrects nasty bugs introduced in SwitchRes X.4 - when hot plugging a monitor, when editing a resolution by double-click...\
+\
+\'95 Uses standard MacOS X toolbar elements instead of custom design code, making the code cleaner and easier to maintain\
+\'95 Changed parts of the code to prepare eventual transition to Xcode\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardeftab480\partightenfactor0
+\cf2 SwitchResX 3.4\cf0 \
+\'95 Can display detailed information (timing parameters) for all enabled resolutions. This should allow an easier way to define new resolutions from existing ones.\
+\'95 New timings use by default settings of the current timing, for better tweaking\
+\'95 Allows definition of Interleaved resolutions - up to the OS to use them\
+\'95 Automatically defines a Display Set at startup with safe resolutions, to fall back on working settings during tests by pressing CMD+OPT+F11 (user-definable, of course)\
+\'95 Uses APE version 1.4.6\
+\
+\'95 \'93Video Mirroring\'94 is now a read/write property in Applescript\
+\'95 Easier way to enter registration data (text copied from Kagi\'92s email is automatically pasted in the registration dialog)\
+\'95 Should better handle shared preferences\
+\'95 Should better handle modified settings (no need to save when no change has been done)\
+\'95 Should finally manage correctly the Menubar extra (no disappearing Menus any more after restart or login)\
+\'95 Corrects a problem when deleted settings would reappear\
+\'95 Corrects a memory leak when detecting a new display or when hot-plugging a display\
+\
+\cf2 SwitchResX 3.3.3\cf0 \
+\'95 Uses APE version 1.4.4\
+\'95 Corrects a problem in LCD resolution panel (that could cause a Control Panel crash)\
+\'95 Is less permissive on non-tested resolutions at startup (will not allow resolutions that are not known to be safe without warning the user)\
+\
+\'95 Tries not to open Menubar extra if already loaded\
+\'95 Can find Control application more easily\
+\'95 Horizontal parameters of custom resolutions should be multiple of 2, not 4 any more (I suppose I will one day find the correct setting)\
+\
+\'95 Minor interface glitches corrected (size of font, ghost text)\
+\'95 Contextual menu separators placement corrected in some cases\
+\'95 Corrects displayed version number\
+\'95 SwitchResX is AppleScriptable and recordable again\
+\'95 Can set the main display from AppleScript now\
+\
+\cf2 SwitchResX 3.3.2\cf0 \
+\'95 Corrects a bug when setting main display from a display set\
+\'95 Uses shared preferences file when settings are stored in the global Library directory\
+\
+\cf2 SwitchResX 3.3.1\cf0 \
+\'95 Allows definition of scaled resolutions for LCD monitors\
+\'95 Allows new feature of multiple custom resolutions with monitors that don\'92t report any DDC too \
+\'95 Allows definition of custom and VESA resolution on digital monitors too\
+\'95 Corrected copyright date to 2004\'85\
+\
+\cf2 SwitchResX 3.3\cf0 \
+\'95 Changed the way to handle custom resolutions, as a consequence:\
+\'95 Can define more than one custom resolution, and for a greater number of displays\
+\'95 Should be able to display added resolutions in all cases if they are valid and inside monitors limits\
+\'95 Can define working resolutions very easily by use of the GTF\
+\
+\'95 Contextual Menu shows again checkmarks and icon if requested\
+\'95 Doesn\'92t show the script extension when a Display set has a script associated\
+\'95 Duplicating a Display Set preserves all the original Set\'92s characteristics, including script used\
+\'95 Had a problem to manage aliased resolutions that were enabled again\
+\'95 Interface: redesigned the lists by using the Apple DataBrowser control instead of using custom drawing procedures\
+\
+\cf2 SwitchResX 3.2.1\cf0 \
+\'95 Defining a custom resolution wasn\'92t always allowed even if it was possible for a particular monitor. This version allows custom resolutions in more cases now, and does it also in a cleaner way. This should allow to use SwitchResX as a base part of your home theater installation, in more frequent cases than previous version.\
+\'95 Request for restart after applying some changes is less frequent\
+\'95 Control panel crash at startup is corrected\
+\'95 Repackaged the installer as a disk image (.dmg) instead of using Stuffit: this should solve Installation problems\
+\'95 Uses MenuCracker 1.3 for better integration in Jaguar/Panther\
+\'95 Got rid of \'93Cannot find Control Panel\'94 error\
+\'95 Default time for testing a resolution is now 15 seconds\
+\
+\'95 Interface glitches\
+\'95 Corrects a problem in the Display Sets dialog where some options couldn\'92t be changed\
+\'95 Horizontal parameters of custom resolutions should be multiple of 4, not 8 any more\
+\'95 Update of slider controls in resolutions list correctly done\
+\'95 Update of popup menu controls correctly done on Panther again\
+\'95 Displays correctly the key shortcuts in Panther\
+\
+\cf2 SwitchResX 3.2\cf0 \
+\'95 Works with Panther (aka MacOS X 10.3)\
+\'95 Custom resolution (user definable)\
+\'95 Partially revamped user interface (Control Panel) to separate standard available resolutions to additional resolutions\
+\'95 No \'93default mode\'94 notion any more (was almost never used). Can change the current mode from Control Panel, now.\
+\'95 Click on a resolution displays a dialog where you can define more easily what options you want to set for it, instead of using the resolution list and its associated icons\
+\
+\'95 Option to start the Daemon from the Contextual Menu if it is not running\
+\'95 Can differentiate the TV resolutions from standard resolutions more easily\
+\'95 The bug correction for FruitMenu 3.1 was too drastic. now it should work as expected\
+\'95 Corrects a problem where a set could not be deleted and was marked referenced to a previously deleted application\
+\'95 Corrects a crash in the Control Panel when \'93Revert\'94-ing to the previous status when an application was deleted\
+\'95 Doesn\'92t display resolution name dialog when you clicked in the list but not on a mode\
+\'95 Can find the Menubar extra module again (was lost when the Control Panel became a bundle)\
+\'95 Shows the command to start SwitchRes only in the Finder Desktop\'91s Contextual menu\
+\
+\cf2 SwitchResX 3.1.1\cf0 \
+\'95 Does enable two 1024x768,75Hz in the same time when present (impossible to distinguish both of them)\
+\'95 Shows an alert when impossible to try a resolution that was just enabled\
+\'95 Should now be able to save changes in some particular configurations too\
+\'95 Corrects a problem in the Contextual Menu module that was crashing the Finder when FruitMenu 3.1 was installed\
+\
+\cf2 SwitchResX 3.1\cf0 \
+\'95 Use an APE module for:\
+	- displaying Contextual Menu with icons and checkmarks\
+	- disable resolutions before they are applied, even on per-application basis\
+	- use resolutions aliasing before the first resolution is applied\
+	- applying application settings before the application is launched, not after it has been launched\
+Use of the APE module is optional, but SwitchResX functions are now identical to SwitchRes 2 ones only when APE module is installed.\
+When APE is not installed, then SwitchResX 3.1 behaves the same way SwitchResX 3.0 is acting.\
+\'95 Auto-launch the Daemon when clicking on the menu bar item, when this one is crossed\
+\'95 Use new Unsanity Installer instead of MindVision Vise. Added Uninstall option, as well as global/local installation option\
+\'95 Auto-add the daemon in Login Items when first launched\
+\'95 Add a default key shortcut for quitting application\
+\
+\cf2 SwitchResX 3.0.4\cf0 \
+\'95 Typos corrected in French\
+\'95 Corrected Rounding error in the way frequency is get\
+\'95 Get localised name of monitor if available\
+\'95 Removed a crash in the Control panel when showing an alert\
+\'95 Option key creates complete menus (Contextual or Menubar extra) no matter all the options chosen in the Control Panel\
+\'95 Always show the \'93in submenu\'94 option for the Display Sets (inconsistent in previous versions)\
+\'95 Corrects a problem with enabling/disabling Display Sets containing only mirroring features\
+\'95 Corrects a bug where the alert when testing a mode on a second display would not appear or was not positioned correctly\
+\'95 Solves a problem with resolution 1024x768, 75Hz that couldn\'92t be enabled on iMac/eMac\
+\
+\cf2 SwitchResX 3.0.3\cf0  \
+\'95 Can easily retrieve older settings in case of a System Upgrade, which can remove resolutions added by SwitchRes\
+\'95 Control Panel in sync with current settings, if these last are modified when the Control Panel is already open\
+\'95 Changed the way the Dock is hidden when an Application Set needs it\
+\'95 Doesn\'92t show \'93Mirroring\'94 and \'93Main displays\'94 options any more when SwitchRes finds displays that can not be unmirrored (iBook, iMac 17\'94\'85)\
+\
+\cf2 SwitchResX 3.0.2\cf0 \
+\'95 Finds Control Panel in /Library and not only in ~/Library\
+\'95 Doesn\'92t duplicate N times resolutions in some conditions (bug introduced in 3.0.1 and visible most of time with 10.2.5)\
+\'95 Finds correct \'93system\'94 Display Name on 10.2.5\
+\'95 Corrects a small memory bug (duplicated 3 times in the code)\
+\
+\cf2 SwitchResX 3.0.1\cf0 \
+\'95 Installer\'85 finally working\
+\'95 Info.plist in code in the Control Panel\
+\'95 Gets all resolutions on iMac 17\'94\
+\'95 Remember correct resolution names when two resolutions have the same size & freq.\
+\'95 Don\'92t allow multiple instances f the Daemon to be launched simultaneously\
+\'95 Prefpane error \'93Could not load SwitchRes\'94 is gone\
+\
+\cf2 SwitchResX 3.0.0\cf0 \
+\'95 Installer\
+\'95 Items in \'93Application Support\'94 folder\
+\'95 Changed \'93logout\'94 to \'93reboot\'94 for activation of new resolutions\
+\
+\cf2 SRXb7\cf0 \
+\'95 Restore at quit flag is used in Applications Sets\
+\'95 Applications Sets flags are used and saved in the Control Panel (bool vs. Boolean using)\
+\'95 Properly encoding UTF-8 property list\
+\'95 Correctly count number of displays if launched when mirroring is already ON\
+\'95 Changed order of CMM\
+\'95 Detect displays works from CMM now\
+\'95 Setup Wizard is gone (because it would require to restart at each time, thus making it useless)\
+\'95 Now accepts to enable some resolutions more. This requires administrator rights and a logout\
+\'95 Keep the main display position when launched first time\
+\
+\cf2 SRXb6\cf0 \
+\'95 Update problem on Control Panel corrected\
+\'95 Crashes on startup of app avoided more and more\
+\'95 Recognises two identical resolutions with different settings across restarts\
+\'95 Manages preferences by application (option \'91don\'92t let it change\'92)\
+\
+\cf2 SRXb5\cf0 \
+\'95 Works on Jaguar 6C115\
+\'95 No more crashes on startup\
+\'95 No more crashes on resolution change\
+\'95 No more crashes on application launches or swaps\
+\'95 No more de-synchronisation of checkmarks in the menu\
+\'95 Starts with correct \'91default\'92 menu settings if no pref is found\
+\'95 Added gray levels management\
+\
+\cf2 SRXb4\cf0 \
+\'95 Shows the Contextual Menu at first click after logon if the Desktop Folder is aliased\
+\'95 Icons change in the Menubar extra\
+\'95 Icon in gray\
+\'95 Open Control Panel at bottom of menu\
+\'95 Name of the Control Panel window changed\
+\'95 Correct a problem of updating \'93Apply\'94 button in Control Panel when modifying restore icons time\
+\'95 Added complete name automatically (\'93stretched, simulscan...\'94)\
+\
+\cf2 SRXb3\cf0 \
+\'95 About box credits added\
+\'95 CGSComplete/Cancel functions corrected\
+\'95 Error messages if Application launched from Classic\
+\'95 Don\'92t try current mode in Control Panel\
+\'95 Menubar extra path with a non-ASCII character works\
+\
+\cf2 SRXb2\cf0 \
+\'95 Menubar extra loaded by default - generally: changed default settings\
+\'95 Alert when using wizard and not using all resolutions (current SRX limit)\
+\'95 Bug in menu item \'93enter serial number\'94 + direct serial entering from the \'93Unregistered\'94 floating window\
+\'95 Return of the Dock auto hiding option (disabled by Apple\'92s private APIs on 10.1.4)\
+\
+\cf2 SRXb1\cf0 \
+\'95 Completely redeveloped for MacOS X\
+\'95 Added some features like the possibility to quit SwitchRes or to detect displays on-the-fly without putting your Mac on sleep.\
+\'95 Correct some little bugs found on version 2.x while adapting the code to MacOS X\
+\'95 Items in \'93Application Support\'94 folder\
+\'95 Changed \'93logout\'94 to \'93reboot\'94 for activation of new resolutions}

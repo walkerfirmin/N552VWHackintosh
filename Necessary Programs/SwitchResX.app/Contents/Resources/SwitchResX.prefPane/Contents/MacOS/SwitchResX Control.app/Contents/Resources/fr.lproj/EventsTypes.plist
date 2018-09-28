@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SwitchResXOneMonitorRotation</key>
+	<dict>
+		<key>name</key>
+		<string>Orientation d&apos;un moniteur changée</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<key>SwitchResXOneMonitorAdded</key>
+	<dict>
+		<key>name</key>
+		<string>Un moniteur ajouté</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<key>SwitchResXOneMonitorRemoved</key>
+	<dict>
+		<key>name</key>
+		<string>Un moniteur détaché</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<key>SwitchResXOneMonitorActivated</key>
+	<dict>
+		<key>name</key>
+		<string>Un moniteur activé</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<key>SwitchResXOneMonitorDisabled</key>
+	<dict>
+		<key>name</key>
+		<string>Un moniteur désactivé</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<key>NSWorkspaceActiveSpaceDidChangeNotification</key>
+	<dict>
+		<key>name</key>
+		<string>Space modifié</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWorkspaceSessionDidBecomeActiveNotification</key>
+	<dict>
+		<key>name</key>
+		<string>Cette session devient active</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWorkspaceDidWakeNotification</key>
+	<dict>
+		<key>name</key>
+		<string>Ordinateur sorti de veille</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWorkspaceScreensDidWakeNotification</key>
+	<dict>
+		<key>name</key>
+		<string>Écran sorti de veille</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+<dictionary title="Dictionary">
+	<documentation>‹</documentation>
+	<suite name="SwitchResX Suite" code="SWRs" description="Common terms supported by SwitchResX">
+		<class name="display set" code="CSET" description="a display set, created in the SwitchResX Control Panel">
+			<cocoa class="SRXDisplaySet"/>
+			<element description="The monitors defined in this Display Set" type="monitor" access="r">
+				<cocoa key="monitors"/>
+				<accessor style="test"/>
+				<accessor style="relative"/>
+				<accessor style="range"/>
+				<accessor style="name"/>
+				<accessor style="id"/>
+				<accessor style="index"/>
+			</element>
+			<property name="mirroring" code="PVMR" description="is the video mirroring enabled ?" type="boolean" access="r">
+				<cocoa key="mirroringAS"/>
+			</property>
+			<property name="attached script" code="scpt" description="the script currently attached to this set" type="file" access="r">
+				<cocoa key="attachedScriptAS"/>
+			</property>
+			<property name="shortcut" code="PSHR" description="the description of the current key shortcut for this set" type="text" access="r">
+				<cocoa key="shortcutAS"/>
+			</property>
+			<property name="name" code="pnam" description="the name of this display set, as defined in the SwitchResX Control panel" type="text" access="r">
+				<cocoa key="nameAS"/>
+			</property>
+			<property name="index" code="pidx" description="the index of this display set" type="integer" access="r">
+				<cocoa key="indexAS"/>
+			</property>
+			<property name="gray levels" code="PGRY" description="should all display show gray levels ? (opposed to colors)" type="boolean" access="r">
+				<cocoa key="grayLevelsAS"/>
+			</property>
+			<property name="ID" code="ID  " description="the unique ID defining this set" type="integer" access="r">
+				<cocoa key="IDAS"/>
+			</property>
+			<property name="application count" code="PNAP" description="the number of applications using this display set" type="integer" access="r">
+				<cocoa key="applicationCountAS"/>
+			</property>
+			<property name="active" code="PACT" description="is this Display Set active (ie. should a checkmark or a dash be visible if this DIsplay Set would be in a menu)" type="boolean" access="r">
+				<cocoa key="activeAS"/>
+			</property>
+			<responds-to command="apply">
+				<cocoa method="useDisplaySet:"/>
+			</responds-to>
+		</class>
+		<class name="monitor" code="CMON" description="one of the monitor settings that you can add to a display set">
+			<cocoa class="SRXMonitorInSet"/>
+			<property name="selected mode" code="PSMD" description="the mode selected for this monitor’s setting" type="mode" access="r">
+				<cocoa key="selectedModeAS"/>
+			</property>
+			<property name="enabled" code="PENB" description="should this monitor be enabled when this set is applied ?" type="boolean" access="r">
+				<cocoa key="activeAS"/>
+			</property>
+			<property name="index" code="pidx" description="the index of this monitor’s settings" type="integer" access="r">
+				<cocoa key="indexAS"/>
+			</property>
+			<property name="is main" code="PISM" description="should this monitor become the main monitor when this set is applied ?" type="boolean" access="r">
+				<cocoa key="isMainAS"/>
+			</property>
+			<property name="overscan" code="POVS" description="should this monitor display an overscan picture when this set is applied ?" type="boolean" access="r">
+				<cocoa key="overscanAS"/>
+			</property>
+			<property name="position" code="PORG" description="the coordinates of the upper left corner of this monitor" type="point" access="r">
+				<cocoa key="positionAS"/>
+			</property>
+			<property name="selected depth" code="PSDP" description="the depth selected for this monitor’s setting" type="integer" access="r">
+				<cocoa key="selectedDepthAS"/>
+			</property>
+			<property name="orientation" code="PCOR" description="the orientation defined for this display, or 0 if none specified" type="integer" access="r">
+				<cocoa key="orientationAS"/>
+			</property>
+			<property name="profile" code="PCPF" description="the color profile to use for this monitor" type="profile" access="r">
+				<cocoa key="colorProfileAS"/>
+			</property>
+			<property name="underscan" code="PUVS" description="the underscan value of this monitor" type="real">
+				<cocoa key="underscanAS"/>
+			</property>
+		</class>
+		<class name="display" code="CDSP" description="the display(s) you have in front of you">
+			<cocoa class="SRXDisplay"/>
+			<element description="The valid modes of this display" type="mode" access="r">
+				<cocoa key="modes"/>
+				<accessor style="test"/>
+				<accessor style="relative"/>
+				<accessor style="range"/>
+				<accessor style="name"/>
+				<accessor style="id"/>
+				<accessor style="index"/>
+			</element>
+			<element description="The color profiles defined for this display" type="profile">
+				<cocoa key="profiles"/>
+				<accessor style="name"/>
+				<accessor style="index"/>
+			</element>
+			<property name="current depth" code="PCDP" description="the current depth for this display" type="integer" access="rw">
+				<cocoa key="currentDepthAS"/>
+			</property>
+			<property name="name" code="pnam" description="the name of this display, as defined in SwitchResX control" type="text" access="r">
+				<cocoa key="nameAS"/>
+			</property>
+			<property name="index" code="pidx" description="the index of this display" type="integer" access="r">
+				<cocoa key="indexAS"/>
+			</property>
+			<property name="overscan" code="POVS" description="is this monitor displaying an overscan picture" type="boolean" access="rw">
+				<cocoa key="overscanAS"/>
+			</property>
+			<property name="enabled" code="PENB" description="is this monitor currently enabled (visible from the System)" type="boolean" access="rw">
+				<cocoa key="activeAS"/>
+			</property>
+			<property name="ID" code="ID  " description="the CoreGraphics ID as returned by MacOS X" type="integer" access="r">
+				<cocoa key="IDAS"/>
+			</property>
+			<property name="orientation" code="PCOR" description="the current orientation of this display in degrees (can be 0, 90, 180 or 270°) - not supported on all OS and all video cards" type="integer" access="rw">
+				<cocoa key="orientationAS"/>
+			</property>
+			<property name="current mode" code="PCRZ" description="the current mode of this display" type="mode" access="rw">
+				<cocoa key="currentModeAS"/>
+			</property>
+			<property name="position" code="PORG" description="the coordinates of the upper left corner of this monitor" type="point">
+				<cocoa key="positionAS"/>
+			</property>
+			<property name="display profile" code="PCPF" description="the profile for the display">
+				<cocoa key="colorProfileAS"/>
+				<type type="profile"/>
+				<type hidden="yes" type="file"/>
+			</property>
+			<property name="built in" code="PBIN" description="is the display built-in ?" type="boolean" access="r">
+				<cocoa key="builtinAS"/>
+			</property>
+			<property name="underscan" code="PUVS" description="the underscan value of this monitor, if available" type="real">
+				<cocoa key="underscanAS"/>
+			</property>
+			<property name="mirror" code="PVMR" description="the display(s) that are mirrored onto this one">
+				<cocoa key="mirroringAS"/>
+				<type type="display" list="yes"/>
+			</property>
+		</class>
+		<class name="mode" code="CMOD" description="a resolution accessible for one display">
+			<cocoa class="SRXMode"/>
+			<property name="frequency" code="PFRQ" description="the refresh rate of the screen in this mode" type="integer" access="r">
+				<cocoa key="frequencyAS"/>
+			</property>
+			<property name="safe" code="PSAF" description="must an alert be displayed when choosing this mode ?" type="boolean" access="r">
+				<cocoa key="safeAS"/>
+			</property>
+			<property name="valid" code="PVAL" description="is this mode valid ?" type="boolean" access="r">
+				<cocoa key="validAS"/>
+			</property>
+			<property name="index" code="pidx" description="the index of this mode" type="integer" access="r">
+				<cocoa key="indexAS"/>
+			</property>
+			<property name="in menu" code="PMEN" description="does this mode appear in SwitchResX’ menus ?" type="boolean" access="r">
+				<cocoa key="inMenuAS"/>
+			</property>
+			<property name="maximal depth" code="PMDT" description="the maximal depth in this mode" type="integer" access="r">
+				<cocoa key="maximalDepthAS"/>
+			</property>
+			<property name="supported depths" code="PDPT" description="a list of all supported depths in this mode" access="r">
+				<cocoa key="supportedDepthsAS"/>
+				<type type="integer" list="yes"/>
+			</property>
+			<property name="ID" code="ID  " description="the unique ID for this mode (corresponds to CGDirectDisplay’s ID for this mode)" type="integer" access="r">
+				<cocoa key="IDAS"/>
+			</property>
+			<property name="resolution" code="PSIZ" description="the resolution of the screen in this mode" type="point" access="r">
+				<cocoa key="screenSizeAS"/>
+			</property>
+			<property name="width" code="PWID" description="the width of the screen in this mode" type="integer" access="r">
+				<cocoa key="widthAS"/>
+			</property>
+			<property name="height" code="PHGT" description="the height of the screen in this mode" type="integer" access="r">
+				<cocoa key="heightAS"/>
+			</property>
+			<property name="definition" code="PDEF" description="the definition of the screen in this mode (1.0 is standard, 2.0 is retina)" type="real" access="r">
+				<cocoa key="definitionAS"/>
+			</property>
+		</class>
+		<class name="application" code="capp" description="The SwitchResX application">
+			<cocoa class="SRXDaemonMainController"/>
+			<element description="The active displays" type="display" access="r">
+				<cocoa key="displays"/>
+				<accessor style="test"/>
+				<accessor style="relative"/>
+				<accessor style="range"/>
+				<accessor style="name"/>
+				<accessor style="id"/>
+				<accessor style="index"/>
+			</element>
+			<element description="The defined display sets" type="display set" access="r">
+				<cocoa key="displaySets"/>
+				<accessor style="test"/>
+				<accessor style="relative"/>
+				<accessor style="range"/>
+				<accessor style="name"/>
+				<accessor style="id"/>
+				<accessor style="index"/>
+			</element>
+			<element description="The available ColorSync profiles" type="profile">
+				<cocoa key="profiles"/>
+			</element>
+			<property name="gray levels" code="PGRY" description="are all displays showing gray levels ? (opposed to colors)" type="boolean">
+				<cocoa key="grayLevelsAS"/>
+			</property>
+			<property name="mirroring" code="PVMR" description="is any video mirroring enabled ? (returns true if two displays are mirrored) - deprecated, use &quot;mirror of display N&quot;" type="boolean" access="rw">
+				<cocoa key="mirroringAS"/>
+			</property>
+			<property name="current sets" code="PCRS" description="the sets whose parameters match the current settings" access="r">
+				<cocoa key="currentSetsAS"/>
+				<type type="display set" list="yes"/>
+			</property>
+			<property name="main display" code="PMDP" description="the main display (the one with the menu bar)" type="display" access="rw">
+				<cocoa key="mainDisplayAS"/>
+			</property>
+			<property name="version" code="vers" description="the application&apos;s version" type="text">
+				<cocoa key="versionAS"/>
+			</property>
+		</class>
+		<class name="profile" code="CPFL" description="a color profile for any display" plural="profiles">
+			<cocoa class="SRXColorProfile"/>
+			<property name="name" code="pnam" description="the name of this color profile" type="text" access="r">
+				<cocoa key="nameAS"/>
+			</property>
+			<property name="location" code="pATH" description="the file representing the color profile" type="file" access="r">
+				<cocoa key="pathAS"/>
+			</property>
+			<property name="dedicated" code="pDED" description="is this color profile only available for this display ?" type="boolean" access="r">
+				<cocoa key="dedicatedAS"/>
+			</property>
+		</class>
+		<command name="restore desktop" code="SWRsERPL" description="replace the icons and the windows to their saved position">
+			<cocoa class="SRXScriptRestoreDesktop"/>
+		</command>
+		<command name="apply" code="SWRsEUSE" description="selects a display set as if you selected it in the menu">
+			<direct-parameter description="the display set to apply" type="display set"/>
+		</command>
+		<command name="save desktop" code="SWRsESAV" description="save the icons and the windows (depending on the settings) on the desktop">
+			<cocoa class="SRXScriptSaveDesktop"/>
+		</command>
+		<command name="detect displays" code="SWRsDTCT" description="tells the System to probe the connection and detect an eventual newly connected display">
+			<cocoa class="SRXScriptDetectDisplays"/>
+		</command>
+	</suite>
+	<!--
+    STANDARD SUITE
+  -->
+	<suite name="Standard Suite" code="core" description="Common classes and commands for all applications.">
+		<cocoa name="NSCoreSuite"/>
+		<class name="application" code="capp" description="The application&apos;s top-level scripting object.">
+			<cocoa class="NSApplication"/>
+			<property name="name" code="pnam" description="The name of the application." type="text" access="r"/>
+			<property name="frontmost" code="pisf" description="Is this the frontmost (active) application?" type="boolean" access="r">
+				<cocoa key="isActive"/>
+			</property>
+			<property name="version" code="vers" description="The version of the application." type="text" access="r"/>
+		</class>
+		<command name="count" code="corecnte" description="Return the number of elements of a particular class within an object.">
+			<cocoa class="NSCountCommand"/>
+			<direct-parameter description="The objects to be counted." type="specifier"/>
+			<parameter hidden="yes" name="each" code="kocl" description="The class of objects to be counted." type="type" optional="yes">
+				<cocoa key="ObjectClass"/>
+			</parameter>
+			<result description="The count." type="integer"/>
+		</command>
+		<command name="quit" code="aevtquit" description="Quit the application.">
+			<cocoa class="NSQuitCommand"/>
+		</command>
+		<command name="exists" code="coredoex" description="Verify that an object exists.">
+			<cocoa class="NSExistsCommand"/>
+			<direct-parameter description="The object(s) to check." type="any"/>
+			<result description="Did the object(s) exist?" type="boolean"/>
+		</command>
+	</suite>
+</dictionary>

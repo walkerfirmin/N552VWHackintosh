@@ -26,12 +26,7 @@ iasl -da -dl -fe refs.txt DSDT.aml SSDT*.aml
 *Step 2: Copy Hackintosh related applications to Applications folder*
 
 *Step 3: Setup Audio*
-//Some steps may not be entirely necessary but these are the steps that I followed to make stable working audio 
 AppleALC.kext method
-Apply DSDT patches in MaciASL
-
-* IRQ
-* HPET
 
 Apply Clover patches
 ACPI>DSDT patches

@@ -91,5 +91,18 @@ sudo kextcache -i /
 * Install all DSDT patches in folder with specific windows version laptop shipped with “windows 10”
 * Install all kexts in folder
 
+Step 8: Enable Screen Brightness Control
+1. Download Required files 
+    requires Lilu.kext
+https://bitbucket.org/RehabMan/applebacklightfixup/downloads/
 
-
+2. Add the following to clover plist from clover configurator
+Comment: Rename GFX0 to IGPU
+Find: <4746 5830>
+Replace: <4947 5055>
+3. Install AppleBacklightFixup.kext with kextutility
+4. Copy SSDT-PNLF.aml in ACPI/patched
+5. Reboot
+check here for more details if not working.
+https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightfixup-kext.218222/
+Something is usually done in the clover config.plist or an interfering kext was installed before
